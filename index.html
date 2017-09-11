@@ -21,31 +21,228 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style>
+			.criteria-list {
+				max-width: 50% !important;
+				max-height: 50% !important;
+			}
+			.flex {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.beyonce-1 {
+				max-width: 60% !important;
+				padding-right: 25px !important;
+			}
+			.cold-message {
+				text-align: right;
+			}
+			.google-results {
+				width: 525px;
+			}
+			.resize{
+				zoom: 25%;
+			}
+			.donations {
+				zoom: 35%;
+				flex-direction: column;
+				padding-right: 20%;
+			}
+			.border {
+				border: 1px darkgray solid !important;
+			}
+			.messages {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+			}
+			.twitter-message {
+				zoom: 45%;
+			}
+			.highlight {
+				background: #CBFFE2;
+			}
+			.meetup-image {
+				zoom: 25%;
+			}
+			.zoom-40 {
+				zoom: 40%;
+			}
+			.zoom-35{
+				zoom: 35%;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 				<section>
 					<img src="img/tech-ladies-logo.jpg" alt="Tech Ladies logo" />
-					<h1>Presentation Title</h1>
-					<h2>by Presenter Name</h2>
-					<h3><a href="http://twitter.com/twitter" target="_blank">@twitter</a></h3>
+					<h1><span class="highlight">Finding a job that's the right fit for you</span></h1>
+					<h2>by Casey Gruppioni</h2>
+					<h3><a href="http://twitter.com/gruppioni" target="_blank">@cgruppioni</a></h3>
 				</section>
 				<section>
-					<h2>Slide 1</h2>
-					<p>(Note how it displays for 1 minute)</p>
+					<h2><span class="highlight">Decide on your criteria</span></h2>
+					<ul>
+						<li><span class="highlight">Programming languages</span></li>
+						<li>Salary / Equity</li>
+						<li><span class="highlight">Work / Life Balance</span></li>
+						<li><span class="highlight">Commute Length</span></li>
+						<li><span class="highlight">Mission of the company</span></li>
+						<li>Industry</li>
+						<li>Gender ratio of possible team and surrounding management</li>
+						<li>Career Growth Opportunities</li>
+						<li>Benefits Package</li>
+						<li>Mentorship</li>
+					</ul>
 				</section>
 				<section>
-					<h2>Slide 2</h2>
+					<h2><span class="highlight">Salary/Equity</span></h2>
+					<div class="flex">
+						<img src="img/beyonce-wage-gap.png" class="beyonce-1" alt="Beyonce wage gap" />
+						<img src="img/rihanna.gif" class="rihanna" alt="Rihanna gif" />
+					</div>
 				</section>
 				<section>
-					<h2>Slide 3</h2>
+					<h2><span class="highlight">Work/Life Balance</span></h2>
+					<img src="img/beyonce-health.gif" class="beyonce-2" alt="Beyonce be healthy" />
 				</section>
 				<section>
-					<h2>Slide 4</h2>
+					<h2><span class="highlight">Find interesting companies &amp; <br> get your foot in the door:</span></h2>
+					<ul>
+						<li>LinkedIn</li>
+						<li>Meetups</li>
+						<li>Slack Groups</li>
+						<li>Recruiters</li>
+						<li>Women in tech job boards</li>
+					</ul>
 				</section>
 				<section>
-					<h2>Slide 5</h2>
+					<h2><span class="highlight">LinkedIn</span></h2>
+					<ul>
+						<li>Find interesting companies through your 1st degree connections.</li>
+						<li>Find a mutual connection to introduce you to someone at a company that you want to work for.</li>
+					</ul>
+				</section>
+				<section>
+					<img src="img/li-1st-degree-3.png" />
+				</section>
+				<section>
+					<img src="img/li-company-search-1.png" class="zoom-35" />
+				</section>
+				<section>
+					<h2><span class="highlight">Warm Messaging</span></h2>
+					<div class="messages">
+						<img src="img/spencer-message.png" />
+						<img src="img/cindy-message.png" />
+					</div>
+				</section>
+				<section>
+					<h2><span class="highlight">Cold Messaging</span></h2>
+					<img src="img/twitter-message.png" class="twitter-message" />
+				</section>
+				<section>
+					<h2><span class="highlight">Meetups</span></h2>
+					<div class="messages">
+						<img src="img/meetup.png" class="meetup-image"/>
+						<img src="img/meetup-message.png" />
+					</div>
+				</section>
+				<section>
+					<h2><span class="highlight">Slack Groups</span></h2>
+					<img src="img/slack.png" />
+				</section>
+				<section>
+					<h2><span class="highlight">Recruiters</span></h2>
+					<img src="img/recruiters.jpg" />
+				</section>
+				<section>
+					<h2><span class="highlight">Women in Tech Job Boards</span></h2>
+					<ul>
+						<li><a class="highlight">HireTechLadies.com</a></li>
+						<li><a>Womenwhocode.com/jobs</a></li>
+						<li><a>Powertofly.com</a></li>
+						<li>Startups with female founders: <a>https://angel.co/job-collections/female-founders/</a></li>
+						<li>Master list: <a>http://workintech.io/categories/diversity/</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2><span class="highlight">How To Research and Evaluate A Company</span></h2>
+				</section>
+				<section>
+					<h2><span class="highlight">Social Media Presence</span></h2>
+					<div class="flex zoom-40">
+						<img src="img/mailchimp-tweets.png" />
+						<img src="img/mailchimp-likes.png" />
+					</div>
+				</section>
+				<section>
+					<h2><span class="highlight">Engineering Blog</span></h2>
+					<img src="img/mailchimp-blog.png" />
+				</section>
+				<section>
+					<h2><span class="highlight">Open Source Work</span></h2>
+					<div class="flex resize">
+						<img src="img/mailchimp-opensource-png.png" />
+						<img src="img/mailchimp-readme.png" />
+					</div>
+				</section>
+				<section>
+					<h2><span class="highlight">Public API</span></h2>
+					<img src="img/mailchimp-api.png" />
+				</section>
+				<section>
+					<h2><span class="highlight">Glassdoor</span></h2>
+					<div class="flex">
+						<img src="img/glassdoor-logo.jpg" alt="glassdoor logo" />
+						<img src="img/glassdoor-2.png" class="google-results" />
+					</div>
+				</section>
+				<section>
+					<h2><span class="highlight">Applying to jobs that you feel unqualified for</span></h2>
+					<div class="flex">
+						<img src="img/google-job-listing-1.png" class="zoom-40" />
+						<img src="img/google-job-listing-2.png" class="zoom-40" />
+					</div>
+				</section>
+				<section>
+					<h2><span class="highlight">Interview</span></h2>
+					<ul class="interview-tips">
+						<li>Ask what the interview questions will be beforehand.</li>
+						<li>Pre-interview coding challenges determine if you are technically fit for the role, <span class="highlight">in-person whiteboard challenges demonstrate if you are able to communicate and collaborate in a team.</span></li>
+						<li>They WANT to hire you.</li>
+						<li>Ask <span class="highlight">a lot of questions</span> to show them how interested you are in the company/role.</li>
+					</ul>
+				</section>
+				<section>
+					<h2><span class="highlight">"Do you have any hesitations about me as a candidate?"</span></h2>
+				</section>
+				<section>
+					<h2><span class="highlight">What I want you to take from this:</span></h2>
+					<img src="img/beyonce-bossy.gif" />
+				</section>
+				<section>
+					<h2><span class="highlight">Continue to be engaged and build your community</span></h2>
+						<div class="flex">
+							<div class="flex donations">
+								<img src="img/blackgirlscode-donation.png" />
+								<img src="img/gdi-donation.png" />
+							</div>
+						<img src="img/upcoming-meetups.png" class="zoom-40" />
+					</div>
+				</section>
+				<section>
+					<h2><span class="highlight">Casey Gruppioni</span></h2>
+					<ul>
+						<li>@cgruppioni</li>
+						<li><a>https://www.linkedin.com/in/caseygruppioni/</a></li>
+						<li>Find me in the Girl Develop It, She Geeks Out, Women Who Code and Boston Ruby Slack channels.</li>
+					</ul>
+					<img src="img/sgo-nov-event.png" class="border" />
 				</section>
 			</div>
 			<footer>
@@ -61,7 +258,7 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
-				autoSlide: 60000,
+				// autoSlide: 60000,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
